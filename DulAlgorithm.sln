@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DulAlgorithm", "DulAlgorithm\DulAlgorithm.csproj", "{7F50650E-0EE1-4882-8D7F-107A37E46DB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DulAlgorithm", "DulAlgorithm\DulAlgorithm.csproj", "{7F50650E-0EE1-4882-8D7F-107A37E46DB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DulAlgorithm.ConsoleApp", "DulAlgorithm.ConsoleApp\DulAlgorithm.ConsoleApp.csproj", "{52658A04-3537-48C9-BBC2-23D6FBE2024C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DulAlgorithm.ConsoleApp", "DulAlgorithm.ConsoleApp\DulAlgorithm.ConsoleApp.csproj", "{52658A04-3537-48C9-BBC2-23D6FBE2024C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DulAlgorithm.WindowsFormsApp", "DulAlgorithm.WindowsFormsApp\DulAlgorithm.WindowsFormsApp.csproj", "{5EECF8F9-0B9A-4094-B149-3DB4E8319320}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DulAlgorithm.WindowsFormsApp", "DulAlgorithm.WindowsFormsApp\DulAlgorithm.WindowsFormsApp.csproj", "{5EECF8F9-0B9A-4094-B149-3DB4E8319320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DulAlgorithm.Tests", "DulAlgorithm.Tests\DulAlgorithm.Tests.csproj", "{96E2CF4A-5A79-464C-9FB8-CC2B1CA2BED5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{758DCC8C-497C-4E89-89E9-F6D9DC731C8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +31,17 @@ Global
 		{5EECF8F9-0B9A-4094-B149-3DB4E8319320}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EECF8F9-0B9A-4094-B149-3DB4E8319320}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EECF8F9-0B9A-4094-B149-3DB4E8319320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E2CF4A-5A79-464C-9FB8-CC2B1CA2BED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E2CF4A-5A79-464C-9FB8-CC2B1CA2BED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E2CF4A-5A79-464C-9FB8-CC2B1CA2BED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E2CF4A-5A79-464C-9FB8-CC2B1CA2BED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52658A04-3537-48C9-BBC2-23D6FBE2024C} = {758DCC8C-497C-4E89-89E9-F6D9DC731C8B}
+		{5EECF8F9-0B9A-4094-B149-3DB4E8319320} = {758DCC8C-497C-4E89-89E9-F6D9DC731C8B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A1C524A-53A8-4AE2-97A5-A2D4FA731083}
